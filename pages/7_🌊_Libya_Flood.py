@@ -21,8 +21,8 @@ with st.expander("See source code"):
         before = "https://github.com/opengeos/datasets/releases/download/raster/Libya-2023-07-01.tif"
         after = "https://github.com/opengeos/datasets/releases/download/raster/Libya-2023-09-13.tif"
         m.split_map(
-            left_layer = before, right_layer = after
+            left_layer = before, right_layer = after, left_label="July01,2023_Libya", right_label="Sept13,2023_Libya"
         )
-        m.add_legend(title="Libya July 01, 2023", builtin_legend="Libya Sept 13, 2023")
+        
 
 m.to_streamlit(height=700)
