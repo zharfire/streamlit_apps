@@ -4,8 +4,8 @@ import leafmap.foliumap as leafmap
 st.set_page_config(layout="wide")
 
 markdown = """
-A Streamlit map template
-<https://github.com/opengeos/streamlit-map-template>
+A use case for visualizing Libya Flood Event in Sept 2023.
+<https://www.unicef.org/emergencies/devastating-flooding-libya>
 """
 
 st.sidebar.title("About")
@@ -13,7 +13,7 @@ st.sidebar.info(markdown)
 logo = "https://i.imgur.com/UbOXYAU.png"
 st.sidebar.image(logo)
 
-st.title("Split-panel Map")
+st.title("Devastating Floods in Libya Sept 2023")
 
 with st.expander("See source code"):
     with st.echo():
